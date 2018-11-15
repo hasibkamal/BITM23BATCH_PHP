@@ -1,0 +1,26 @@
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="jquery-3.1.0.min.js"></script>
+    </head>
+    <body>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('#btn1').click(function(){
+                    $('#div1').hide();
+                });
+                
+                $('#btn2').click(function(){
+                    $('#div2').show();
+                });
+            });
+        </script>
+        <div id="div1" style="width: 400px; height: 400px; background: green;"> This is a div</div>
+        <div id="div2" style="width: 400px; height: 400px; background: blue; display: none;"> This is a div</div>
+        <button id="btn1">HIDE</button>
+        <button id="btn2">Show</button>
+    </body>
+</html>

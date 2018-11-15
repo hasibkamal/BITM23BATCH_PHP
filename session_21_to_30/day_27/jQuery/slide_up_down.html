@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="jquery-3.1.0.min.js"></script>
+    </head>
+    <body>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('#flip').click(function(){
+                    $('#panel').slideToggle(100);
+                });
+            });
+        </script>
+        <div id="flip" style="width: 700px; height: 30px; background: green; text-align: center">Click</div>
+        <div id="panel" style="width: 700px; height: 300px; background: #00A300;"></div>
+    </body>
+</html>
